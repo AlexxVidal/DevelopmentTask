@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FullStackDeveloperTask.Api", "FullStackDeveloperTask.Api\FullStackDeveloperTask.Api.csproj", "{BE0ACA03-DC04-4DC5-949E-34843B119B7B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FullStackDeveloperTask.Core", "FullStackDeveloperTask.Core\FullStackDeveloperTask.Core.csproj", "{D68C6072-2868-4E9C-A80D-DD9692A968D7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FullStackDeveloperTask.Data", "FullStackDeveloperTask.Data\FullStackDeveloperTask.Data.csproj", "{42DF9590-9DDF-4294-8D62-94E73F56CE44}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{1780892F-22C6-41BC-A03E-8E832C18FDFD}"
+	ProjectSection(SolutionItems) = preProject
+		client\.env = client\.env
+		client\.gitignore = client\.gitignore
+		client\eslint.config.js = client\eslint.config.js
+		client\index.html = client\index.html
+		client\package-lock.json = client\package-lock.json
+		client\package.json = client\package.json
+		client\README.md = client\README.md
+		client\tsconfig.app.json = client\tsconfig.app.json
+		client\tsconfig.json = client\tsconfig.json
+		client\tsconfig.node.json = client\tsconfig.node.json
+		client\vite.config.ts = client\vite.config.ts
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE0ACA03-DC04-4DC5-949E-34843B119B7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE0ACA03-DC04-4DC5-949E-34843B119B7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE0ACA03-DC04-4DC5-949E-34843B119B7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE0ACA03-DC04-4DC5-949E-34843B119B7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D68C6072-2868-4E9C-A80D-DD9692A968D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D68C6072-2868-4E9C-A80D-DD9692A968D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D68C6072-2868-4E9C-A80D-DD9692A968D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D68C6072-2868-4E9C-A80D-DD9692A968D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42DF9590-9DDF-4294-8D62-94E73F56CE44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42DF9590-9DDF-4294-8D62-94E73F56CE44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42DF9590-9DDF-4294-8D62-94E73F56CE44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42DF9590-9DDF-4294-8D62-94E73F56CE44}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1BE02EB9-A80B-424D-A870-5916969D46FA}
+	EndGlobalSection
+EndGlobal
